@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# normaler bash Befehl um sen2cor auszuführen:
-# Sen2Cor-02.08.00-Linux64/bin/L2A_Process /media/pak44ck/4e59e129-3a08-43a9-9890-45d3981b0af6/data_sat_download/sentinel2/
+# normal bash command to execute sen2cor
+# Sen2Cor-02.08.00-Linux64/bin/L2A_Process /path/
 
 printf "\n"
 echo "==============================="
@@ -10,11 +10,11 @@ echo "==============================="
 
 printf "\n\nEnter path to your input directory (all Sentinel.SAFE files): \n"
 read input_dir
-#input_dir="/media/pak44ck/4e59e129-3a08-43a9-9890-45d3981b0af6/data_sat_download/sentinel2"
+#/path
 
 printf "\n\nEnter path to your output directory (for L2A processed data): \n"
 read output_dir
-#output_dir="/media/pak44ck/4e59e129-3a08-43a9-9890-45d3981b0af6/data_sat_processed/sen2cor_output/"
+#/path
 
 cd $input_dir
 
