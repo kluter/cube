@@ -20,7 +20,7 @@ cd $input_dir
 
 sub=".SAFE"
 counter=1
-# als Loop durch Ordnerstruktur
+# looping through directories
 for d in *; do
     str=$input_dir/$d
         if [[ "$str" == *"$sub" ]]; 
